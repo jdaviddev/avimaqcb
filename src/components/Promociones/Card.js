@@ -11,7 +11,7 @@ function CardPromociones( { img, titulo, descripcion} ) {
   return (
     <CardContainer>
         <CardBody>
-            <Img src={img} />|
+            <Img src={img} />
             <Title> {titulo} </Title>
             <Info> {descripcion} </Info>
         </CardBody>

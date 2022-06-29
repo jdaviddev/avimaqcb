@@ -10,6 +10,8 @@ import Home from './pages';
 import SigninPage from './pages/signin';
 import DayPassPage from './pages/daypass';
 import Promociones from './pages/promociones';
+import Escuela from './pages/escuela';
+import Sms from './pages/sms';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/signin" element={<SigninPage />} />
         <Route path="/daypass" element={<DayPassPage />} />
         <Route path="/promociones" element={<Promociones />} />
+        <Route path="/escuelaavimaq" element={<Escuela />} />
+        <Route path="/sms" element={<Sms />} />
       </Routes>
     </BrowserRouter>
     

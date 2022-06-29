@@ -4,7 +4,7 @@ import {Link as LinkR} from 'react-router-dom'
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-    background: #0c0c0c;
+    //background: #0c0c0c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,15 @@ export const HeroContainer = styled.div`
         z-index:2; 
     }
     /* add :before styles */
+`;
+
+export const ImgHeroCarousel = styled.div`
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
 `;
 
 export const HeroBg = styled.div`
@@ -54,6 +63,19 @@ export const HeroContent = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
+`;
+
+export const Logo = styled.div`
+    width: 100;
+
+    @media screen and (max-width: 768px) {
+        width: 200px;
+
+    }
+    @media screen and (max-width: 480px) {
+        width: 60px;
+        
+    }
 `;
 
 export const HeroH1 = styled.h1`
@@ -108,10 +130,10 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 export const HeroBtnReservas = styled(LinkR)`
     border-radius: 50px;
     text-decoration: none;
-    background: #01bf71; //color boton 01bf71
+    background: #cd2525; //color boton 01bf71
     white-space: nowrap;
     padding: 16px 64px;
-    color: rgba(16, 67, 255, 0.7); //color texto boton del menu mobile
+    color: #010606; //color texto boton del menu mobile
     font-size: 16px;
     outline: none;
     border: none;
@@ -125,7 +147,9 @@ export const HeroBtnReservas = styled(LinkR)`
     }
 `;
 
-
+export const img = styled.img`
+    
+`;
 
 /*----- Sile Form ------*/
 

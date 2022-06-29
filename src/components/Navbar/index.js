@@ -37,20 +37,20 @@ const Navbar = ({toggle}) => {
    <IconContext.Provider value = {{ color: '#fff'}}>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to='/' onClick={toggleHome}>EcoResort</NavLogo>
+                <NavLogo to='/' onClick={toggleHome}>Avimaq</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
                         <NavLinks 
-                            to="/promociones"
+                            to="/"
                             smooth={true}
                             duration={500}
                             spy={true}
                             exact='true'
                             offset={-80}
-                        >Promociones</NavLinks>
+                        >Inicio</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks 
@@ -60,7 +60,7 @@ const Navbar = ({toggle}) => {
                             spy={true}
                             exact='true'
                             offset={-80}
-                        >Eventos</NavLinks>
+                        >Nosotros</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks 
@@ -80,17 +80,17 @@ const Navbar = ({toggle}) => {
                             spy={true}
                             exact='true'
                             offset={-80}
-                        >Áreas</NavLinks>
+                        >Informativo</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks 
-                            to="rooms"
+                            to="/sms"
                             smooth={true}
                             duration={500}
                             spy={true}
                             exact='true'
                             offset={-80}
-                        >Habitaciones</NavLinks>
+                        >SMS</NavLinks>
                     </NavItem>
                     
                     <NavItem>
@@ -104,6 +104,7 @@ const Navbar = ({toggle}) => {
                         >Contáctenos</NavLinks>
                     </NavItem>
                 </NavMenu>
+               { /*
                 <NavBtn>
                     <NavBtnLink 
                         to="/signin"
@@ -114,6 +115,7 @@ const Navbar = ({toggle}) => {
                         offset={-80}
                     >Ingresar</NavBtnLink>
                 </NavBtn>
+                */ }
             </NavbarContainer>
         </Nav>
      </IconContext.Provider>

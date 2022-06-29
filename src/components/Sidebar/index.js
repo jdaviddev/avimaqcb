@@ -14,15 +14,15 @@ const Sidebar = ({isOpen, toggle}) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick= {toggle}>
         <Icon onClick={toggle}>
-            <CloseIcon/>
+            <CloseIcon/> 
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="/promociones" onClick= {toggle}>Promociones</SidebarLink>
-                <SidebarLink to="discover" onClick= {toggle}>Eventos</SidebarLink>
-                <SidebarLink to="areas" onClick= {toggle}>Areas</SidebarLink>
-                <SidebarLink to="rooms" onClick= {toggle}>Habitaciones</SidebarLink>
-                <SidebarLink to="gastronomia" onClick= {toggle}>Gastronomía</SidebarLink>
+                <SidebarLink to="/promociones" onClick= {toggle}>Inicio</SidebarLink>
+                <SidebarLink to="discover" onClick= {toggle}>Nosotros</SidebarLink>
+                <SidebarLink to="areas" onClick= {toggle}>Servicios</SidebarLink>
+                <SidebarLink to="rooms" onClick= {toggle}>Informativo</SidebarLink>
+                <SidebarLink to="/sms" onClick= {toggle}>SMS</SidebarLink>
                 <SidebarLink to="contact" onClick= {toggle}>Contáctenos</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
