@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 export const Nav = styled.nav`
     //background: #003249;
-    background: ${({scrollNav}) => (scrollNav ? '#fff' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#7a1b0c' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -34,7 +34,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #000;
+    color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -79,7 +79,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-    color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     text-decoration: none;

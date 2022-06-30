@@ -3,6 +3,7 @@ import Video from '../../videos/video.mp4';
 import ImgHeader from '../../images/escuelaservice.jpg';
 import EscuelaImg from '../../images/avionetaescuela.jpg';
 import Tab from '../Tab/index';
+import ImgFondo from '../../images/fondo/fondotextura.jpg'
 import {
     EscuelaContainer,
     ImagenHeader,

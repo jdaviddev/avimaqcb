@@ -12,6 +12,7 @@ import DayPassPage from './pages/daypass';
 import Promociones from './pages/promociones';
 import Escuela from './pages/escuela';
 import Sms from './pages/sms';
+import Service from './pages/service';
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
         <Route path="/daypass" element={<DayPassPage />} />
         <Route path="/promociones" element={<Promociones />} />
         <Route path="/escuelaavimaq" element={<Escuela />} />
+        <Route path="/services" element={<Service />} />
         <Route path="/sms" element={<Sms />} />
+        
       </Routes>
     </BrowserRouter>
     

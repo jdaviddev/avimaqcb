@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import ImgFondo from '../../images/fondo/fondotextura.jpg'
+
 
 export const ServicesContainer = styled.div`
     height: 100%;
@@ -7,7 +9,10 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background-image: url(${ImgFondo});
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
     @media screen and (max-width: 768px) {
         width: 100%;

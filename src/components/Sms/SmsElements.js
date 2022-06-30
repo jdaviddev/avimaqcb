@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import ImgFondo from '../../images/fondo/fondotextura.jpg'
 
 export const ContainerSms = styled.div`
-    width: 100%;
-    height: 100%;
-    background-image: repeating-linear-gradient(36deg, rgba(255,255,255, 0.1), rgba(255,255,255, 0.1) 1px, transparent 0px, transparent 2px);
+    background-image: url(${ImgFondo});
+    background-size: cover;
+    background-repeat: no-repeat;
 `;
 
 export const WrapperHeaderSms = styled.div`
@@ -26,7 +27,13 @@ export const PoliticasSms = styled.div`
     display: block;
     align-items: center;
     justify-content: center;
-
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 20px 20px 20px;
+    }
 `;
 
 export const TituloPoliticas = styled.h1`
@@ -50,17 +57,33 @@ export const MensajeSms = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 20px 20px 20px;
+    }
 `;
 
 export const IconSms = styled.img`
    width: 100%;
    height: 300px;
+   @media screen and (max-width: 768px) {
+        
+        height: 150px;
+   }
 `;
 
 export const ContenidoMsn = styled.h1`
     font-style: bold;
     text-align: justify;
     margin 0px 50px 0 0;
+    @media screen and (max-width: 768px) {
+        font-size: 1.2em;
+        text-align: center;
+    }
     
 `;
 

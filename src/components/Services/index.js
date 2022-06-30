@@ -22,7 +22,7 @@ const Services = () => {
             <LinkCard to="/fumigacion" >
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Aplicación Aérea</ServicesH2>
+                    <ServicesH2>Fumigación Aérea</ServicesH2>
                     <ServicesP>
                     En Avimaq nos tomamos muy en serio la protección del medio ambiente.
                     </ServicesP>
@@ -31,7 +31,7 @@ const Services = () => {
             <LinkCard to="/oma" >
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>TAR</ServicesH2>
+                    <ServicesH2>OMA</ServicesH2>
                     <ServicesP>
                         Amplia experiencia en mantenimiento de línea y reparación estructural de aeronaves de fumigación.
                     </ServicesP>

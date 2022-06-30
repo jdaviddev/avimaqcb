@@ -1,9 +1,11 @@
 import styled from 'styled-components'
-import ImgHeader from '../../images/escuelaservice.jpg'
+import ImgFondo from '../../images/fondo/fondotextura.jpg'
 
 
 export const EscuelaContainer = styled.div`
-    background: #fff;
+    background-image: url(${ImgFondo});
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 `;
@@ -34,7 +36,6 @@ export const InfoContainer = styled.div`
 
 export const InfoWrapper = styled.div`
     
-    background: #fff;
     display: grid;
     align-items: center;
     justify-content: center;

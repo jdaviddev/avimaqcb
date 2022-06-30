@@ -84,7 +84,7 @@ const HeroSection = ({isOpen, toggle}) => {
                 </HeroP>
             <HeroBtnWrapper>
                 <HeroBtnReservas 
-                        to='/'
+                        to="/escuelaavimaq"
                         onMouseEnter={onHover} 
                         onMouseLeave ={onHover}
                         primary='true'
