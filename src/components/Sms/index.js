@@ -28,7 +28,7 @@ const GestionSeguridad = () => {
   return (
     <ContainerSms>
       <WrapperHeaderSms>
-        <ImgHeaderSms src={ImagenHeaderSms} />
+       { /* <ImgHeaderSms src={ImagenHeaderSms} /> */ }
       </WrapperHeaderSms>
       <PoliticasSms>
         <TituloPoliticas>Politicas de Seguridad Operacional</TituloPoliticas>

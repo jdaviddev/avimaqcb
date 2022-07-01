@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import ImgFondo from '../../images/fondo/fondotextura.jpg'
-
+import SmsImageHeader from '../../images/img2.jpeg'
 export const ContainerSms = styled.div`
     background-image: url(${ImgFondo});
     background-size: cover;
@@ -14,6 +14,9 @@ export const WrapperHeaderSms = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .3), rgba(5 100 50 / 1)), url(${SmsImageHeader});
+    background-size: cover;
+    background-position: center;
 `;
 
 export const ImgHeaderSms = styled.img`

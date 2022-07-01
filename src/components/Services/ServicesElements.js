@@ -5,13 +5,14 @@ import ImgFondo from '../../images/fondo/fondotextura.jpg'
 
 export const ServicesContainer = styled.div`
     height: 100%;
-    display: flex;
+	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(${ImgFondo});
     background-size: cover;
     background-repeat: no-repeat;
+
 
 
     @media screen and (max-width: 768px) {
