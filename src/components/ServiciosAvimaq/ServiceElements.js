@@ -87,7 +87,6 @@ export const TarjetaServ = styled.div`
 export const CuadroInfo = styled.img`
     width: 100%;
     height: 400px;
-    
 `;
 
 export const TituloH3 = styled.h3`

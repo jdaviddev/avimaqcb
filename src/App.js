@@ -13,6 +13,8 @@ import Promociones from './pages/promociones';
 import Escuela from './pages/escuela';
 import Sms from './pages/sms';
 import Service from './pages/service';
+import Oma from './pages/oma';
+import Fumigacion from './pages/fumigacion';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path="/escuelaavimaq" element={<Escuela />} />
         <Route path="/services" element={<Service />} />
         <Route path="/sms" element={<Sms />} />
+        <Route path="/oma" element={<Oma />} />
+        <Route path="/fumigacion" element={<Fumigacion />} />
         
       </Routes>
     </BrowserRouter>

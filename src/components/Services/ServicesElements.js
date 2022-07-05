@@ -50,11 +50,10 @@ export const ServicesWrapper = styled.div`
 
 export const LinkCard = styled(Link)`
     padding: 20px;
-    color: white;
+    color: #000;
     text-decoration: none;
     &:hover {
-        color: red;
-        background: #fff;
+        color: #000;
     }
 `;
 
@@ -129,6 +128,4 @@ export const ServicesH2 = styled.h2`
 export const ServicesP =styled.p`
     font-size: 1rem;
     text-align: center;
-
-    
 `;

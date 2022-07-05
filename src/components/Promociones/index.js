@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ImgPromo from '../../images/promociones.jpg'
 import {
     PromoContainer,
     PromoBg,
@@ -21,7 +20,7 @@ const PromoSection = ({isOpen, toggle}) => {
     return (
         <PromoContainer isOpen={isOpen} onClick= {toggle}>
             <PromoBg>
-                <ImagenBg src= {ImgPromo} />
+                <ImagenBg src= "" />
             </PromoBg>
             <PromoContent>
                 <PromoH1>Increíbles Promociones</PromoH1>
