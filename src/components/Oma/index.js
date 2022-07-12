@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaTools } from "react-icons/fa";
+
 import ImgOInfo from '../../images/taller1.jpg';
 import ImgCard1 from '../../images/taller1.jpg';
 import ImgCard2 from '../../images/taller2.jpg';
@@ -23,7 +25,7 @@ import {
     ServiciosOMA,
     ImgDetailsOma,
     ImgCard,
-    Pcard
+    Pcard,
 } from './OmaElements'
 
 const TallerAvimaq = () => {
@@ -34,7 +36,7 @@ const TallerAvimaq = () => {
         </HeaderOma>
         <WrapperOma>
             <TituloSeccion>
-                Taller de Reparación Aeronáutica - EC
+               <FaTools /> Taller de Reparación Aeronáutica - EC
             </TituloSeccion>
             <GridInfo>
                 <ItemParrafo>

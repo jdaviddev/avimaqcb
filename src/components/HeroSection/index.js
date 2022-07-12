@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Video from '../../videos/video.mp4';
+import Video from '../../videos/helicoptero1.mp4';
 import logo from '../../images/logo.png';
 import baner1 from '../../images/img2.jpeg'
 import baner2 from '../../images/AVION2.jpg'
@@ -30,9 +30,10 @@ const HeroSection = ({isOpen, toggle}) => {
 
   return (
     <HeroContainer isOpen={isOpen} onClick= {toggle}>
-        { /* <HeroBg>
+       <HeroBg>
             <VideoBg autoPlay loop muted src = {Video} type='video/mp4' />
-  </HeroBg>  */ }
+  </HeroBg> 
+  { /*
         <Carousel>
             <Carousel.Item>
                 <ImgHeroCarousel>
@@ -76,7 +77,7 @@ const HeroSection = ({isOpen, toggle}) => {
                 </ImgHeroCarousel>
             </Carousel.Item>
         </Carousel>
-
+*/ }
         <HeroContent>
             <figure><Logo><img src={logo} alt='Logo'/> </Logo> </figure> 
                 <HeroP>

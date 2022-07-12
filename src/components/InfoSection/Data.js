@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Contamos con aplicación vía aérea de productos líquidos, sólidos y polvos diluibles usados como parte integral del control fitosanitario de cultivos y del agro.',
     buttonLabel: 'Ver Más',
     imgStart: true,
-    img: require('../../images/img2.jpeg'),
+    img: require('../../images/helicoptero1.jpeg'),
     alt: 'Naturaleza',
     dark: true,
     primary: true,
