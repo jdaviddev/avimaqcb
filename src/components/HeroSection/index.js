@@ -32,7 +32,7 @@ const HeroSection = ({isOpen, toggle}) => {
     <HeroContainer isOpen={isOpen} onClick= {toggle}>
        <HeroBg>
             <VideoBg autoPlay loop muted src = {Video} type='video/mp4' />
-  </HeroBg> 
+        </HeroBg> 
   { /*
         <Carousel>
             <Carousel.Item>

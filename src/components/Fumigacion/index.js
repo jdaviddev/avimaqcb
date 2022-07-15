@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { FcNext } from "react-icons/fc";
 import { FaTelegramPlane } from "react-icons/fa";
+import './styleFumigacion.css';
 import { Data } from './DataFumagacion';
-import { IconContext } from 'react-icons/lib';
-import { FiPlus, FiMinus } from 'react-icons/fi';
 import 'react-accessible-accordion/dist/fancy-example.css';
-import HelicopteroF from '../../images/helicoptero1.jpeg';
-import Avion1 from '../../images/avimaq1.jpeg';
-import Avion2 from '../../images/avimaq4.jpeg';
-import Avion3 from '../../images/fumigacion2.jpg'
+import HelicopteroFumigacion from '../../images/helicoptero1.jpeg';
+import AvionFumigacion2 from '../../images/avimaq4.jpeg';
+
+
+
 
 import {
     Accordion,
@@ -27,13 +27,14 @@ import {
     AcordionSection,
     Container,
     Wrap,
-    SectionF,
     Card,
-    FaceFront,
-    ImgCard,
-    H3Card,
-    FaceBack,
-    DetailsCard
+    Small,
+    Corner,
+    Arrow,
+    Content,
+    ImgHelicoptero,
+    ContainerImagen,
+    VideoFum
 
 } from './FumigacionElements';
 import { WrapperOma } from '../Oma/OmaElements';
@@ -46,59 +47,52 @@ const FumigacionAerea = () => {
         <HeaderFumigacion>
           <TitutoHfumigacion>Home <FcNext /> Fumigación <FaTelegramPlane /> </TitutoHfumigacion> 
         </HeaderFumigacion>
-        <SectionF>
-          <Card>
-            <FaceFront>
-              <ImgCard src={HelicopteroF} />
-              <H3Card>Helicoptero</H3Card>
-            </FaceFront>
-            <FaceBack>
-              <H3Card>Helicoptero</H3Card>
-              <DetailsCard>
-                Los aviones y los helicópteros pueden tratar áreas grandes más rápido que los métodos de fumigación terrestre, disminuyendo así el desarrollo de la enfermedad.
-              </DetailsCard>
-            </FaceBack>
-          </Card>
-          <Card>
-            <FaceFront>
-              <ImgCard src={Avion1} />
-              <H3Card>Helicoptero</H3Card>
-            </FaceFront>
-            <FaceBack>
-              <H3Card>Helicoptero</H3Card>
-              <DetailsCard>
-                Los aviones y los helicópteros pueden tratar áreas grandes más rápido que los métodos de fumigación terrestre, disminuyendo así el desarrollo de la enfermedad.
-              </DetailsCard>
+          <Container>
+            <Card>
+              <h3>Helicoptero</h3>
+              <Small> Con el Bell 505, el cielo es el límite. Una cabina de mando de alta tecnología y un diseño de cabina adaptable hacen que sea un helicóptero extremadamente rentable y esté a la altura de cualquier desafío.</Small>
+              <Corner>
+                <Arrow>
+                  →
+                </Arrow>
+              </Corner>
+            </Card>
 
-            </FaceBack>
-          </Card>
-          <Card>
-            <FaceFront>
-              <ImgCard src={Avion2} />
-              <H3Card>Helicoptero</H3Card>
-            </FaceFront>
-            <FaceBack>
-              <H3Card>Helicoptero</H3Card>
-              <DetailsCard>
-                Los aviones y los helicópteros pueden tratar áreas grandes más rápido que los métodos de fumigación terrestre, disminuyendo así el desarrollo de la enfermedad.
-              </DetailsCard>
+            <Card>
+              <h3>Thrush 510G Switchback</h3>
+              <Small> Lo que hace lo hace único es la capacidad de la aeronave al poder cambiar las tareas de fumigación agrícola a las capacidades de extinción de incendios en cuestión de minutos, gracias a su exclusivo sistema de puerta de entrega de incendio.</Small>
+              <Corner>
+                <Arrow>
+                  →
+                </Arrow>
+              </Corner>
+            </Card>
 
-            </FaceBack>
-          </Card>
-          <Card>
-            <FaceFront>
-              <ImgCard src={Avion3} />
-              <H3Card>Helicoptero</H3Card>
-            </FaceFront>
-            <FaceBack>
-              <H3Card>Helicoptero</H3Card>
-              <DetailsCard>
-                Los aviones y los helicópteros pueden tratar áreas grandes más rápido que los métodos de fumigación terrestre, disminuyendo así el desarrollo de la enfermedad.
-              </DetailsCard>
+            <Card>
+              <h3>GPS</h3>
+              <Small>El sistema de posicionamiento global (GPS) permite registrar las parcelas donde se prevé aplicar tratamiento y calcular con mayor precisión los volúmenes de fungicida necesarios para cubrir el área objetivo.</Small>
+              <Corner>
+                <Arrow>
+                  →
+                </Arrow>
+              </Corner>
+            </Card>
 
-            </FaceBack>
-          </Card>
-        </SectionF>
+            <Card>
+              <h3>Control tiempo real</h3>
+              <Small>Esta herramienta controla automáticamente el volumen de fungicida aplicado por hectárea. Dependiendo de la velocidad y la posición del avión, el software calcula y ajusta, en tiempo real, el volumen de fungicida que se debe aplicar. Esta herramienta hace la cobertura más homogénea y el tratamiento más eficaz. La tecnología ya está disponible para otros cultivos.</Small>
+              <Corner>
+                <Arrow>
+                  →
+                </Arrow>
+              </Corner>
+            </Card>
+          </Container>
+          <ContainerImagen>
+            <ImgHelicoptero src={HelicopteroFumigacion} />
+            <ImgHelicoptero src={AvionFumigacion2} />
+
+          </ContainerImagen>
     </ContainerFumigacion>
   );
 };
